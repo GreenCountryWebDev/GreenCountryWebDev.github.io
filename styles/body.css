@@ -4,6 +4,8 @@ html {
 
 * {
     font-family: 'Raleway', sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
 :root {
@@ -15,6 +17,8 @@ html {
 }
 
 .loader {
+    display: flex;
+    flex-direction: row;
     position: fixed;
     top: 0;
     left: 0;
@@ -97,4 +101,8 @@ html {
     to {
     stroke-dashoffset: 22;
     }
+}
+
+.main-content {
+    background-color: var(--color-light);
 }
