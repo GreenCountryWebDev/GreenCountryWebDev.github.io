@@ -1,135 +1,225 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Green Country Web Development</title>
-    <link rel="icon" href="./assets/tools.png">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles/header.css">
-    <link rel="stylesheet" href="styles/body.css">
-    <link rel="stylesheet" href="styles/footer.css">
-</head>
-<body>
-    <div class="loader" id="loader">
-        <script src="./loader.js"></script>
-        <div class="container">
-            <div class="container__progressbars">
-                <div class="progressbar">
-                    <svg class="progressbar__svg">
-                        <circle cx="80" cy="80" r="70" class="progressbar__svg-circle circle-html shadow-html"> </circle>
-                    </svg>
-                    <span class="progressbar__text shadow-html">LOADING</span>
-                </div>
-            </div>
-            <div class="logo">
-                <img src="./assets/Green_Country_tp_new.png" alt="Company logo. Circle with words Green Country Web Development and a picture of a scissor-tailed flycatcher">
-            </div>
-        </div>
-    </div>
-    <header class="header">
-        <script src="./burger.js"></script>
-        <div class="nav_content">
-            <nav class="main-nav">
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width,
+        initial-scale=1.0, viewport-fit=cover" />
+        <title>Tomahwak, LLC - Bartlesville, OK</title>
+        <meta name="description" content="Tomahwak is Bartlesville's supply company for local businesses" />
+        <link rel="icon" type="truck" href="./assets/tomahawk_1.png" />
+        <link rel="stylesheet" href="./styles/body.css" />
+        <link rel="stylesheet" href="./styles/footer.css" />
+        <link rel="stylesheet" href="./styles/header.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div id="fb-root"></div>
+        <script async defer crossorigin="anonymous"
+        src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v16.0" nonce="qi08hb2o">
+        </script>
+        <div id="loader">
+            <script src="./loader.js"></script>
+            <div class="container">
+                <!--<div class="container__progressbars">
+                    <div class="progressbar">
+                        <svg class="progressbar__svg">
+                            <circle cx="80" cy="80" r="70" class="progressbar__svg-circle circle-html shadow-html"> </circle>
+                        </svg>
+                        <span class="progressbar__text shadow-html">LOADING</span>
+                    </div>
+                </div>-->
                 <div class="logo">
-                    Green Country Web Development
+                    <img src="./assets/TomahawkSupplyMonochrome.PNG">
                 </div>
-                <ul class="nav-links">
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#products">Products</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-                <div class="burger">
-                    <div class="line line1"></div>
-                    <div class="line line2"></div>
-                    <div class="line line3"></div>
-                </div>
-            </nav>
-        </div>
-    </header>
-    <main>
-        <div class="main-content">
-            <h1>Green Country Web Development</h1>
-            <div class="mission">
-                <h3> Our Vision</h3>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
-                    dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-                    mollit anim id est laborum.
-                </p>
             </div>
-            <div class="reasons">
-                <h3>Benefits of having your own site</h3>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
-                    dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-                    mollit anim id est laborum.
-                </p>
-            </div>
-            <div class="limitations">
-                <h3>Shortcomings of Content Management Systems</h3>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
-                    dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-                    mollit anim id est laborum.
-                </p>
-            </div>
-            <div class="contact">
-                <h3>Contact Us</h3>
-                <div class="contact-content-con">
-                    <div class="right-contact">
-                        <form action="https://formspree.io/f/xlekvjre" method="POST" class="contact-form">
-                            <div class="input-control i-c-2">
-                                <input type="text" name="sender-name" required placeholder="YOUR NAME">
-                                <input type="email" name="sender-email" required placeholder="YOUR EMAIL">
-                            </div>
-                            <div class="input-control">
-                                <input type="text" name="subject" required placeholder="ENTER SUBJECT">
-                            </div>
-                            <div class="input-control">
-                                <textarea name="message" id="" cols="15" rows="8" placeholder="Message Here..."></textarea>
-                            </div>
-                            <div class="submit-btn">
-                                <input class="inp_btn" type="submit">
-                                </input>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-                <div class="email">
-                    <h3>E-Mail</h3>
-                    <div class="email_image_wrapper">
-                        <img src="./assets/email2.svg" alt="Email image" height="80px" width="80px"/>
-                    </div>
-                    <p>
-                        blah@gmail.com
-                    </p>
-                </div>
-                <div class="telephone">
-                    <h3>Give Us A Call</h3>
-                    <a href="tel:1111111111">
-                        <img src="./assets/phone.svg" alt="Phone image" height="80px" width="80px">
-                    </a>
-                        <p>1111111111</p>
-                    </p>
-                </div>
+            <!--<div class="waviy">-->
+            <!--<h1>-->
+                <!--<span>Loading...</span>-->
+                <!--
+                <span style="--i:1">L</span>
+                <span style="--i:2">o</span>
+                <span style="--i:3">a</span>
+                <span style="--i:4">d</span>
+                <span style="--i:5">i</span>
+                <span style="--i:6">n</span>
+                <span style="--i:7">g</span>
+                <span style="--i:8">.</span>
+                -->
+            <!--</h1>-->
             </div>
         </div>
-    </main>
-    <footer>
-
-    </footer>
-</body>
+        <header class="header">
+            <script src="./burger.js"></script>
+            <div class="nav_content">
+                <nav class="main-nav">
+                    <div class="logo">
+                        Tomahawk Supply
+                    </div>
+                    <div class="image1">
+                        <img src="./assets/TomahawkSupplyMonochromeWhiteBG.JPG" height="60px" width="100px" />
+                    </div>
+                    <ul class="nav-links">
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#products">Products</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                    <div class="burger">
+                        <div class="line line1"></div>
+                        <div class="line line2"></div>
+                        <div class="line line3"></div>
+                    </div>
+                </nav>
+            </div>
+        </header>
+        <main>
+            <div class="main_content">
+                <div class="about_us" id="about">
+                    <h2>About Us</h2>
+                    <div class="story">
+                        <!--<img src="./assets/bison.jpg" alt="American Bison">-->
+                        <h3>Our Story</h3>
+                        <p>
+                            We've lived in the area our entire lives so it only made since to start
+                            our family business here. We're honored to serve the community we've
+                            grown up in. We look forward to adding to the area's tradition of successful 
+                            Native American businesses.
+                        </p>
+                    </div>
+                    <div class="mission">
+                        <!--<img src="./assets/price_tower.jpg" alt="Price Tower">-->
+                        <!--<h3>Our Mission</h3>
+                        <p>
+                            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                            proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                        </p>-->
+                    </div>
+                    <div class="team">
+                        <!--<img src="./assets/family.jpg" alt="Family Photo">-->
+                        <!--<h3>Our Team</h3>
+                        <p>
+                            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                            proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                        </p>-->
+                    </div>
+                </div>
+                <div class="products" id="products">
+                        <h2>Products</h2>
+                        <div class="goods">
+                            <h3>Our Products</h3>
+                            <p>
+                                Here are a few of the products we offer! Check out some of the 
+                                other products we offer by clicking this link! For further information on
+                                our full product line give us a call or E-Mail us.
+                            </p>
+                            <br>
+                                <p>Multifold towels
+                                    <img src="./assets/brown_towel_1.jpg" height="100px" width="100px">
+                                </p>
+                                <br>
+                                <p>Hardwound towels
+                                    <img src="./assets/white_towel_1.jpg" height="100px" width="100px">
+                                </p>
+                                <br>
+                                <p>Can liners
+                                    <img src="./assets/large_black_trash_bag_1.jpg" height="100px" width="100px">
+                                </p>
+                        </div>
+                        <div class="services">
+                            <h3>Visit our store</h3>
+                            <p>
+                                "LOREM IPSUM DOLOR SIT AMET, CONSECTETUR ADIPISCING ELIT, SED
+                                DO EIUSMOD TEMPOR INCIDIDUNT UT LABORE ET DOLORE MAGNA ALIQUA. 
+                                UT ENIM AD MINIM VENIAM, QUIS NOSTRUD EXERCITATION ULLAMCO 
+                                LABORIS NISI UT ALIQUIP EX EA COMMODO CONSEQUAT. DUIS AUTE 
+                                IRURE DOLOR IN REPREHENDERIT IN VOLUPTATE VELIT ESSE CILLUM 
+                                DOLORE EU FUGIAT NULLA PARIATUR. EXCEPTEUR SINT OCCAECAT 
+                                CUPIDATAT NON PROIDENT, SUNT IN CULPA QUI OFFICIA DESERUNT 
+                                MOLLIT ANIM ID EST LABORUM."  WORDS
+                            </p>
+                        </div>
+                </div>
+                <div class="contact" id="contact">
+                    <div>
+                        <h2>Contact&nbspUS</h2>
+                    </div>
+                    <div class="contact-container">
+                        <div class="contact-content-con">
+                            <div class="right-contact">
+                                <form action="https://formspree.io/f/mlekyaak" method="POST" class="contact-form" target="blank">
+                                    <div class="input-control i-c-2">
+                                        <input type="text" name="sender-name" required placeholder="YOUR NAME">
+                                        <input type="email" name="sender-email" required placeholder="YOUR EMAIL">
+                                    </div>
+                                    <div class="input-control">
+                                        <input type="text" name="subject" required placeholder="ENTER SUBJECT">
+                                    </div>
+                                    <div class="input-control">
+                                        <textarea name="message" id="" cols="15" rows="8" placeholder="Message Here..."></textarea>
+                                    </div>
+                                    <div class="submit-btn">
+                                        <input class="inp_btn" type="submit">
+                                        </input>
+                                    </div>
+                                </form>
+                            </div>
+                            </div>
+                        </div>
+                    <div class="social">
+                        <div class="fb-page" data-href="https://www.facebook.com/profile.php?id=100072171774485"
+                        data-tabs="timeline" data-width="" data-height="" data-small-header="false"
+                        data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true">
+                        <blockquote cite="https://www.facebook.com/profile.php?id=100072171774485" 
+                        class="fb-xfbml-parse-ignore">
+                        <a href="https://www.facebook.com/profile.php?id=100072171774485">Tomahawk Supply, LLC</a></blockquote></div>
+                    </div>
+                    <div class="phone-mail">
+                        <div class="telephone">
+                            <h3>Give Us A Call</h3>
+                            <a href="tel:1111111111">
+                                <img src="./assets/phone.png" alt="Phone image" height="80px" width="80px">
+                            </a>
+                                <p>(918)639-2237</p>
+                            </p>
+                        </div>
+                        <div class="email">
+                            <h3>Or Send Us an E-Mail</h3>
+                            <div class="email_image_wrapper">
+                                <img src="./assets/email.svg" height="80px" width="80px"/>
+                            </div>
+                            <p>
+                                orders@oktomahawk.com
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <p class="copy">&copy; Copyright 2022</p>
+            <p class="copy2">
+                Made with &#9786; by <a href="https://github.com/jfharris" target="_blank">Jeff Harris</a>
+            </p>
+            <div id="scroll-up">
+                <i class="scroll-up" id="scroll-up"
+                ><img
+                src="assets/new_tomahawk_3.png"
+                class="socicon up-arrow"
+                alt="scroll-up"
+                /></i>
+            </div>
+            <script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
+            <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
+            <script src="app.js"></script>
+        </footer>
+    </body>
 </html>

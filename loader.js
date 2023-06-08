@@ -4,6 +4,6 @@ document.onreadystatechange = function () {
     // hide loader after 2 seconds
     setTimeout(function(){ 
       document.getElementById('loader').style.display = 'none';
-    }, 2500);
+    }, 500);
   }
 }
