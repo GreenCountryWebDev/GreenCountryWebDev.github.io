@@ -1,6 +1,6 @@
 README for Business Website
 
-assets/tools.png from https://iconscout.com/icons/tools Free Tools Icon by https://iconscout.com/contributors/elegant-themes Elegant Themes
+assets/tools.png from <a href="https://iconscout.com/icons/tools" target="_blank"> Free Tools Icon</a> by <a href="https://iconscout.com/contributors/elegant-themes" target="_blank" Elegant Themes
 
 assets/email2.png <a href="https://iconscout.com/icons/email" target="_blank">Free Email Icon</a> by <a href="https://iconscout.com/contributors/theiconz" target="_blank">The Icon Z</a>
 
