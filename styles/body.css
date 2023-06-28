@@ -10,6 +10,8 @@ html {
 }
 
 :root {
+    --color-medium-green: #0c6f30;
+    --color-green: #0a9e40;
     --color-gray-green: #687864;
     --color-dark-blue: #31708E; 
     --color-medium-blue: #5085A5;
@@ -43,24 +45,34 @@ html {
 /* Main Body and Text */
 
 .main-content {
-    background-color: var(--color-light);
+    background-color: var(--color-light-blue);
+    height: 80vh;
+}
+
+.heading {
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    height: fit-content;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
 
 h1 {
     color: var(--color-dark);
 }
 
-h3 {
-    color: var(--color-secondary);
-}
-
-p {
-    color: white;
-}
-
 /* Contact */
 
-.contact {
+/*.contact {
     display: flex;
     flex-direction: row;
 }
@@ -140,3 +152,4 @@ p {
         transform: scale(1);
     }
 }
+*/

@@ -1,3 +1,18 @@
-.footer {
+:root {
+    --color-gray-green: #687864;
+    --color-dark-blue: #31708E; 
+    --color-medium-blue: #5085A5;
+    --color-light-blue: #8FC1E3;
+    --color-white: #F7F9FB;
+}
+
+footer {
     font-family: 'Raleway', sans-serif;
+    height: 10vh;
+    background-color: var(--color-light-blue);
+}
+
+p {
+    justify-content: center;
+    align-items: center;
 }
