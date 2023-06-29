@@ -47,7 +47,7 @@ html {
     border-radius: 50%;
     text-align: center;
     line-height: 150px;
-    font-family: sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-size: 20px;
     color: var(--color-white);
     letter-spacing: 4px;
@@ -130,13 +130,17 @@ span:before {
 
 .main-content {
     background-color: var(--color-light-blue);
-    height: 80vh;
+    height: 100vh;
 }
 
 .heading {
     position: relative;
     justify-content: center;
     align-items: center;
+}
+
+.heading h1 {
+    display: none;
 }
 
 .logo {
