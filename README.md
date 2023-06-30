@@ -8,3 +8,6 @@ assets/phone.svg <a href="https://iconscout.com/icons/phone" target="_blank">Fre
 
 Loading screen image Photo by <a href="https://unsplash.com/@raychelsnr?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Raychel Sanner</a> on <a href="https://unsplash.com/photos/FX5fT6mqjBg?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 
+Bison image on About page Photo by <a href="https://unsplash.com/ko/@simonmaage?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Simon Maage</a> on <a href="https://unsplash.com/photos/AY6tn7_vB8g?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+
+Price Tower image on About page from <a href="https://www.historichotels.org/us/hotels-resorts/inn-at-price-tower/">Historic Hotels of America</a>

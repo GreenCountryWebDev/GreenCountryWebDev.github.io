@@ -19,3 +19,33 @@ html {
     --color-white: #F7F9FB;
 }
 
+.main-content {
+    height: 200vh;
+}
+
+.img-0 {
+    background-image: url(../assets/jon-grogan-12WCUSkQxz0-unsplash.jpg);
+    height: 40vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.img-1 {
+    background-image: url(../assets/simon-maage-AY6tn7_vB8g-unsplash\ \(1\).jpg);
+    height: 40vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center 78%;
+    background-attachment: fixed;
+}
+
+.img-2 {
+    background-image: url(../assets/price_tower.jpg);
+    height: 40vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+    background-attachment: fixed;
+}
