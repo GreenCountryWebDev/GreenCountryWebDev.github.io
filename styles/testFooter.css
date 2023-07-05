@@ -8,29 +8,32 @@
     --color-white: #F7F9FB;
 }
 
-header {
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-family: 'Raleway', sans-serif;
+    height: 60px;
     background-color: var(--color-light-blue);
-    height: 10vh;
-    border-bottom: 3px solid black;
+    border-top:  3px solid black;
     display: flex;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
-    justify-content: space-around;
 }
 
-.links a {
-    flex-direction: row;
+footer a {
     text-decoration: none;
-    padding: 1rem;
 }
 
-.links a:visited {
+footer a:visited {
     color: var(--color-white);
 }
 
-.links a:hover {
+footer a:hover {
     cursor: pointer;
 }
 
-.links a:active {
+footer a:active {
     color: var(--color-medium-green);
 }

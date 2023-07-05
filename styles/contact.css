@@ -19,15 +19,6 @@ html {
     --color-white: #F7F9FB;
 }
 
-.container {
-    display: flex;
-    flex-direction: column;
-}
-
-main {
-    flex: 1;
-}
-
 .slide {
     width: 100vw;
     height: 100vh;
