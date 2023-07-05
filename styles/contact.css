@@ -19,6 +19,15 @@ html {
     --color-white: #F7F9FB;
 }
 
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1;
+}
+
 .slide {
     width: 100vw;
     height: 100vh;
@@ -50,17 +59,28 @@ html {
 
 .one {
     background: yellow;
+    text-align: center;
 }
 
 .two {
     background: pink;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0.5rem;
+    max-width: 60vw;
 }
 
 .three {
     background: purple;
 }
 
-/* Contact Form
+/* Contact Form */
+
+.contact-content-con {
+    padding: 2rem 2rem 0 2rem;
+}
 
 .contact-content-con .right-contact {
     min-width: 26;
@@ -137,4 +157,3 @@ html {
         transform: scale(1);
     }
 }
-*/
