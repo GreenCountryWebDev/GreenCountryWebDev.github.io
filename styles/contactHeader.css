@@ -9,12 +9,9 @@
 }
 
 header {
-    position: absolute;
-    top: 0;
-    left: 0;
+    position: sticky;
     background-color: var(--color-light-blue);
     height: 60px;
-    width: 100%;
     border-bottom: 3px solid black;
     display: flex;
     align-items: center;
