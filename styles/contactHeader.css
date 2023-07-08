@@ -9,9 +9,8 @@
 }
 
 header {
-    position: sticky;
     background-color: var(--color-light-blue);
-    height: 60px;
+    height: 10vh;
     border-bottom: 3px solid black;
     display: flex;
     align-items: center;

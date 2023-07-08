@@ -9,11 +9,8 @@
 }
 
 footer {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
     font-family: 'Raleway', sans-serif;
-    height: 60px;
+    height: 10vh;
     background-color: var(--color-light-blue);
     border-top:  3px solid black;
     display: flex;

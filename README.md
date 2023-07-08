@@ -1,5 +1,7 @@
 README for Business Website
 
+Bird icon in browser tab from <a target="_blank" href="https://icons8.com/icon/ZaE64yHXPrDl/flying-bird">Flying Bird</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
+
 assets/tools.png from <a href="https://iconscout.com/icons/tools" target="_blank"> Free Tools Icon</a> by <a href="https://iconscout.com/contributors/elegant-themes" target="_blank" Elegant Themes
 
 assets/email2.png <a href="https://iconscout.com/icons/email" target="_blank">Free Email Icon</a> by <a href="https://iconscout.com/contributors/theiconz" target="_blank">The Icon Z</a>
@@ -11,3 +13,6 @@ Loading screen image Photo by <a href="https://unsplash.com/@raychelsnr?utm_sour
 Bison image on About page Photo by <a href="https://unsplash.com/ko/@simonmaage?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Simon Maage</a> on <a href="https://unsplash.com/photos/AY6tn7_vB8g?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 
 Price Tower image on About page from <a href="https://www.historichotels.org/us/hotels-resorts/inn-at-price-tower/">Historic Hotels of America</a>
+
+Computer image Photo by <a href="https://unsplash.com/ja/@blakeconnally?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Blake Connally</a> on <a href="https://unsplash.com/photos/B3l0g6HLxr8?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+
