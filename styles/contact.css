@@ -17,19 +17,23 @@ html {
     --color-medium-blue: #5085A5;
     --color-light-blue: #8FC1E3;
     --color-white: #F7F9FB;
+    --color-gray: #504949;
 }
 
 .hero-section {
     position: relative;
+    top: 0;
     background-image: url(../assets/medium-blake-connally-B3l0g6HLxr8-unsplash\ \(2\).jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    height: 80vh;
+    height: 100vh;
     background-color: black;
 }
 
 .hero-text {
+    position: absolute;
+    top: 100px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -67,6 +71,7 @@ html {
 
 .button:hover {
     cursor: pointer;
+    background-color: var(--color-gray);
 }
 
 .logo {
