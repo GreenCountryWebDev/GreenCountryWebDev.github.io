@@ -2,7 +2,7 @@ README for Business Website
 
 Bird icon in browser tab from <a target="_blank" href="https://icons8.com/icon/ZaE64yHXPrDl/flying-bird">Flying Bird</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
 
-assets/tools.png from <a href="https://iconscout.com/icons/tools" target="_blank"> Free Tools Icon</a> by <a href="https://iconscout.com/contributors/elegant-themes" target="_blank" Elegant Themes
+assets/tools.png from <a href="https://iconscout.com/icons/tools" target="_blank"> Free Tools Icon</a> by <a href="https://iconscout.com/contributors/elegant-themes" target="_blank"> Elegant Themes</a>
 
 assets/email2.png <a href="https://iconscout.com/icons/email" target="_blank">Free Email Icon</a> by <a href="https://iconscout.com/contributors/theiconz" target="_blank">The Icon Z</a>
 
@@ -16,3 +16,9 @@ Price Tower image on About page from <a href="https://www.historichotels.org/us/
 
 Computer image Photo by <a href="https://unsplash.com/ja/@blakeconnally?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Blake Connally</a> on <a href="https://unsplash.com/photos/B3l0g6HLxr8?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 
+Downtown Tulsa street POV Photo by <a href="https://unsplash.com/pt-br/@rocinante_11?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Mick Haupt</a> on <a href="https://unsplash.com/photos/6Tx611_Pu2o?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+
+Hashtag Photo by <a href="https://unsplash.com/pt-br/@jontyson?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Jon Tyson</a> on <a href="https://unsplash.com/photos/5KKglNl852A?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+
+
+Photo by <a href="https://unsplash.com/@britti3?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Brittany Bendabout</a> on <a href="https://unsplash.com/photos/cIWfJ3b6H_U?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>

@@ -11,25 +11,20 @@
 footer {
     font-family: 'Raleway', sans-serif;
     height: 10vh;
-    background-color: transparent;
-    /*border-top:  3px solid black;*/
+    background-color: var(--color-light-blue);
+    border-top:  3px solid black;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    color: var(--color-white);
 }
 
 footer a {
     text-decoration: none;
-    color: var(--color-light-blue);
 }
 
 footer a:visited {
-    color: var(--color-green);
+    color: var(--color-white);
 }
 
 footer a:hover {

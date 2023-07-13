@@ -9,13 +9,9 @@
 }
 
 header {
-    position: absolute;
-    top: 30px;
-    z-index: 10;
-    width: 100%;
-    background-color: transparent;
+    background-color: var(--color-light-blue);
     height: 10vh;
-    /*border-bottom: 3px solid black;*/
+    border-bottom: 3px solid black;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -25,11 +21,10 @@ header {
     flex-direction: row;
     text-decoration: none;
     padding: 1rem;
-    color: var(--color-white);
 }
 
 .links a:visited {
-    color: var(--color-green);
+    color: var(--color-white);
 }
 
 .links a:hover {
