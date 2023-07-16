@@ -288,3 +288,28 @@ body {
     background-position: center;
     background-attachment: fixed;
 }
+
+@media screen and (max-width: 768px) {
+    .right-contact {
+        width: 100%;
+    }
+
+    .contactMethods {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .contact-firstSection {
+        flex-direction: column;
+    }
+
+    .right-contact,
+    .contactMethods {
+        width: 100%;
+    }
+
+    .socials {
+        grid-template-columns: 1fr;
+    }
+}
