@@ -210,6 +210,11 @@ span:before {
 }
 
 @media screen and (max-width: 480px) {
+    .main-content h1 {
+        display: inline;
+        padding-bottom: 1rem;
+    }
+
     .home-text h2 {
         font-size: large;
     }
