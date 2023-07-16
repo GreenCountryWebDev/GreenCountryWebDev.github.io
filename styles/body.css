@@ -181,6 +181,8 @@ span:before {
 @media screen and (max-width: 768px) {
     .main-content {
         padding: 1rem;
+        display: flex;
+        flex-direction: column;
     }
 
     .home-text {
