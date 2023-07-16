@@ -206,6 +206,11 @@ span:before {
 }
 
 @media screen and (max-width: 480px) {
+    .main-content {
+        display: flex;
+        flex-direction: column;
+    }
+    
     .home-text h2 {
         font-size: large;
     }
