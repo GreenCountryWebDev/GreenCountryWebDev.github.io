@@ -18,3 +18,52 @@ html {
     --color-light-blue: #8FC1E3;
     --color-white: #F7F9FB;
 }
+
+.img0 {
+    background-image: url(../assets/clouds-raychel-sanner-tJv4_dpZF7Y-unsplash.jpg);
+    height: 45vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center bottom;
+    background-attachment: fixed;
+}
+
+.weather {
+    display: flex;
+    flex-direction: row;
+    background-color: var(--color-light-blue);
+    padding: 1rem;
+}
+
+.text-work {
+    padding: 1rem;
+}
+
+.text-work h2 {
+    text-align: center;
+}
+
+.img1 {
+    background-image: url(../assets/rainbow-raychel-sanner-EOFAv8e5wyc-unsplash.jpg);
+    height: 45vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center bottom;
+    background-attachment: fixed;
+}
+
+.portfolio {
+    display: flex;
+    flex-direction: row;
+    background-color: var(--color-light-blue);
+    padding: 1rem;
+}
+
+.img2 {
+    background-image: url(../assets/pasture-raychel-sanner-JENNqPM5z9U-unsplash.jpg);
+    height: 45vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center bottom;
+    background-attachment: fixed;
+}
