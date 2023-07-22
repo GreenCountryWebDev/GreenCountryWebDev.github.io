@@ -20,7 +20,7 @@ html {
 }
 
 .main-content {
-    height: 200vh;
+    height: 100%;
 }
 
 .img-0 {
@@ -32,6 +32,16 @@ html {
     background-attachment: fixed;
 }
 
+.about-content {
+    background-color: var(--color-light-blue);
+    text-align: center;
+    padding: 1rem;
+}
+
+.about-content h2 {
+    padding-bottom: 1rem;
+}
+
 .img-1 {
     background-image: url(../assets/simon-maage-AY6tn7_vB8g-unsplash\ \(1\).jpg);
     height: 40vh;
@@ -41,11 +51,40 @@ html {
     background-attachment: fixed;
 }
 
+.mission-content {
+    background-color: var(--color-light-blue);
+    text-align: center;
+    padding: 1rem;
+    justify-content: space-between;
+}
+.mission-content h2 {
+    padding: 1rem;
+}
+
+.quote {
+    padding: 1rem;
+}
+
+.hr1 {
+    background-color: black;
+    width: 50%;
+    height: 4px;
+    margin: auto;
+}
+
 .img-2 {
     background-image: url(../assets/price_tower.jpg);
     height: 40vh;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 50%;
+    background-attachment: fixed;
+}
+
+.img3 {
+    background-image: url(../assets/james-lee-HyeeLUUV6GU-unsplash.jpg);
+    height: 40vh;
+    background-repeat: no-repeat;
+    background-size: cover;
     background-attachment: fixed;
 }
