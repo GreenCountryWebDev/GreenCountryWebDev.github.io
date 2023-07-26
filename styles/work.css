@@ -37,6 +37,9 @@ html {
 
 .text-work {
     padding: 1rem;
+    padding-left: 15rem;
+    padding-right: 15rem;
+    line-height: 200%;
 }
 
 .text-work h2 {
@@ -66,4 +69,26 @@ html {
     background-size: cover;
     background-position: center bottom;
     background-attachment: fixed;
+}
+
+/* Responsive Section */
+
+@media screen and (max-width: 768px) {
+    .weather, .portfolio {
+        padding: 0.5rem;
+    }
+
+    .text-work {
+        padding: 0.5rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .text-work {
+        padding: 0.5rem;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+    }
 }
