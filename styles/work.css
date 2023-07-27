@@ -35,6 +35,10 @@ html {
     padding: 1rem;
 }
 
+.weather_img {
+    max-width: 80vh;
+}
+
 .text-work {
     padding: 1rem;
     padding-left: 15rem;
@@ -60,6 +64,10 @@ html {
     flex-direction: row;
     background-color: var(--color-light-blue);
     padding: 1rem;
+}
+
+.portfolio_img {
+    max-width: 80vh;
 }
 
 .img2 {
