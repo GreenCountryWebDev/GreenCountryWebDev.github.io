@@ -87,6 +87,11 @@ html {
 }
 
 @media screen and (max-width: 480px) {
+    .weather, .portfolio {
+        padding: 0.5rem;
+        flex-direction: column;
+    }
+
     .text-work {
         padding: 0.5rem;
         padding-left: 0.5rem;
