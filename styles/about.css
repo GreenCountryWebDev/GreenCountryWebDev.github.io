@@ -58,6 +58,7 @@ html {
     padding: 1rem;
     justify-content: space-between;
 }
+
 .mission-content h2 {
     padding: 1rem;
 }
@@ -88,6 +89,10 @@ html {
     padding: 1rem;
     justify-content: space-between;
     height: 20vh;
+}
+
+.bio-content h2 {
+    padding: 1rem;
 }
 
 .img3 {
