@@ -87,6 +87,14 @@ html {
         flex-direction: column;
     }
 
+    .weather_img {
+        max-width: 90vw;
+    }
+
+    .portfolio_img {
+        max-width: 90vw;
+    }
+
     .text-work {
         padding: 0.5rem;
         padding-left: 1rem;
@@ -98,6 +106,14 @@ html {
     .weather, .portfolio {
         padding: 0.5rem;
         flex-direction: column;
+    }
+
+    .weather_img {
+        max-width: 90vw;
+    }
+
+    .portfolio_img {
+        max-width: 90vw;
     }
 
     .text-work {
