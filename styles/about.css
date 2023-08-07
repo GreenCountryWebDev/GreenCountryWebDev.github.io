@@ -32,11 +32,14 @@ html {
     background-attachment: fixed;
 }
 
+/* About the Company */
+
 .about-content {
     background-color: var(--color-light-blue);
     text-align: center;
-    padding: 1rem;
-    height: 20vh;
+    padding: 1rem 10rem 2rem 10rem;
+    line-height: 200%;
+    height: auto;
 }
 
 .about-content h2 {
@@ -52,10 +55,13 @@ html {
     background-attachment: fixed;
 }
 
+/* Mission/Testimonials */
+
 .mission-content {
     background-color: var(--color-light-blue);
     text-align: center;
-    padding: 1rem;
+    padding: 1rem 10rem 2rem 10rem;
+    line-height: 200%;
     justify-content: space-between;
 }
 
@@ -74,6 +80,10 @@ html {
     margin: auto;
 }
 
+.quote span {
+    font-weight: bold;
+}
+
 .img-2 {
     background-image: url(../assets/price_tower.jpg);
     height: 40vh;
@@ -83,12 +93,15 @@ html {
     background-attachment: fixed;
 }
 
+/* About Me */
+
 .bio-content {
     background-color: var(--color-light-blue);
     text-align: center;
-    padding: 1rem;
+    padding: 1rem 10rem 2rem 10rem;
     justify-content: space-between;
-    height: 20vh;
+    line-height: 200%;
+    height: auto;
 }
 
 .bio-content h2 {
