@@ -1,4 +1,5 @@
 README for Business Website
+By Jeff Harris
 
 Bird icon in browser tab from <a target="_blank" href="https://icons8.com/icon/ZaE64yHXPrDl/flying-bird">Flying Bird</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
 
